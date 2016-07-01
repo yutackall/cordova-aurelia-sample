@@ -4,7 +4,6 @@ var app = {
     },
     bindEvents: function() {
       if(typeof device === 'undefined'){
-        console.log("undefined");
         document.addEventListener('deviceready', this.onDeviceReady, false);
       }else{
         console.log(device);
