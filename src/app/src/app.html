@@ -1,3 +1,22 @@
 <template>
   <h1>${message}</h1>
+  <label>デバイス情報</label>
+  <table>
+    <tr>
+      <th>Cordova バージョン</th>
+      <td>${device.cordova}</td>
+    </tr>
+    <tr>
+      <th>プラットフォーム</th>
+      <td>${device.platform}</td>
+    </tr>
+    <tr>
+      <th>プラットフォームバージョン</th>
+      <td>${device.version}</td>
+    </tr>
+    <tr>
+      <th>モデル名</th>
+      <td>${device.model}</td>
+    </tr>
+  </table>
 </template>
